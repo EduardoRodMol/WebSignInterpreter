@@ -1,11 +1,11 @@
 from streamlit_webrtc import VideoProcessorBase,webrtc_streamer, WebRtcMode
 import av
 from juego.game import juego
-import numpy as np
+#import numpy as np
 from wbrtc.print import update_cv2,escribeppt
 from wbrtc.datapoint import get_datapoint,get_pronostico
-import asyncio
-import time
+#import asyncio
+#import time
 from wbrtc.configuracion import RTC_CONFIGURATION
 
 
